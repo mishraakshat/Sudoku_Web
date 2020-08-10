@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="header"> <h1>Welcome To SuDOku Solver Website </h1></div>
+    <div class="header"> <h4>Enter your input here</h4> </div>
+<div class="sudoku">
+    <div class="a2nd">
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="00" placeholder="00"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="01" placeholder="01"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="02" placeholder="02"/>
+        </div>
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="10" placeholder="10"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="11" placeholder="11"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="12" placeholder="12"/>
+        </div>
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="20" placeholder="20"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="21" placeholder="21"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="22" placeholder="22"/>
+        </div>
+    </div>    
+    <div class="a2nd">
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="03" placeholder="03"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="04" placeholder="04"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="05" placeholder="05"/>
+        </div>
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="13" placeholder="13"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="14" placeholder="14"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="15" placeholder="15"/>
+        </div>
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="23" placeholder="23"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="24" placeholder="24"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="25" placeholder="25"/>
+        </div>
+    </div>
+    <div class="a2nd">
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="06" placeholder="06"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="07" placeholder="07"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="08" placeholder="08"/>
+        </div>
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="16" placeholder="16"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="17" placeholder="17"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="18" placeholder="18"/>
+        </div>
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="26" placeholder="26"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="27" placeholder="27"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="28" placeholder="28"/>
+        </div>
+    </div>
+    <br>
+    <div class="a2nd">
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="30" placeholder="30"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="31" placeholder="31"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="32" placeholder="32"/>
+        </div>
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="40" placeholder="40"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="41" placeholder="41"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="42" placeholder="42"/>
+        </div>
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="50" placeholder="50"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="51" placeholder="51"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="52" placeholder="52"/>
+        </div>
+    </div>
+    <div class="a2nd">
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="33" placeholder="33"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="34" placeholder="34"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="35" placeholder="35"/>
+        </div>
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="43" placeholder="43"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="44" placeholder="44"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="45" placeholder="45"/>
+        </div>
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="53" placeholder="53"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="54" placeholder="54"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="55" placeholder="55"/>
+        </div>
+    </div>
+    <div class="a2nd">
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="36" placeholder="36"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="37" placeholder="37"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="38" placeholder="38"/>
+        </div>
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="46" placeholder="46"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="47" placeholder="47"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="48" placeholder="48"/>
+        </div>
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="56" placeholder="56"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="57" placeholder="57"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="58" placeholder="58"/>
+        </div>
+    </div>
+    <br>
+    <div class="a2nd">
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="60" placeholder="60"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="61" placeholder="61"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="62" placeholder="62"/>
+        </div>
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="70" placeholder="70"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="71" placeholder="71"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="72" placeholder="72"/>
+        </div>
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="80" placeholder="80"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="81" placeholder="81"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="82" placeholder="82"/>
+        </div>
+    </div>
+    <div class="a2nd">
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="63" placeholder="63"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="64" placeholder="64"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="65" placeholder="65"/>
+        </div>
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="73" placeholder="73"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="74" placeholder="74"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="75" placeholder="75"/>
+        </div>
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="83" placeholder="83"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="84" placeholder="84"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="85" placeholder="85"/>
+        </div>
+    </div>
+    <div class="a2nd">
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="66" placeholder="66"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="67" placeholder="67"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="68" placeholder="68"/>
+        </div>
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="76" placeholder="76"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="77" placeholder="77"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="78" placeholder="78"/>
+        </div>
+        <div>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="86" placeholder="86"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="87" placeholder="87"/>
+            <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');" class="myId" id="88" placeholder="88"/>
+        </div>
+    </div>
+</div>
+<div id="alert">
+
+</div>
+<div class="sudoku">
+    <button class="btn">
+        <input type="button" value="Solve" onclick="solve()">
+        <input type="button" value="Reset" onclick="reset()">
+        <input type="button" value="Check!" onclick="solvable()">
+    </button>
+</div>
+</body>
+</html>
